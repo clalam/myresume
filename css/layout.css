@@ -330,6 +330,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
+.junit {
+  	width: 80%;
+  	-moz-animation: junit 2s ease;
+  	-webkit-animation: junit 2s ease;
+}
 .illustrator {
   	width: 70%;
   	-moz-animation: illustrator 2s ease;
@@ -370,6 +375,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-moz-keyframes junit {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -400,6 +409,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 @-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes junit {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
